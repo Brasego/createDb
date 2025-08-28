@@ -1,0 +1,7 @@
+{
+  "entry": "src/main.lua",
+  "files": ["src/main.lua", "app.json"],
+  "description": "App to pull data from PrismarineJS, stores it into wanted path.",
+  "version": "1.0.0",
+  "topics": ["Minecraft"]
+}

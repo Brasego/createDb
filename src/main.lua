@@ -29,6 +29,7 @@ if url then
     if response then
         -- Read and print the content
         local content = response.readAll()
+        content = "return " .. content
         print("Response received:")
         saveFile(path, content)
         response.close()
